@@ -1,0 +1,84 @@
+{
+  "muscleGroups": {
+    "chest": {
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "description": "Lift a barbell while lying on a bench, targeting the chest muscles."
+        },
+        {
+          "name": "Dumbbell Flyes",
+          "description": "Isolate the chest muscles by moving dumbbells through a flying motion."
+        },
+        {
+          "name": "Push-Ups",
+          "description": "A bodyweight exercise targeting the chest, shoulders, and triceps."
+        }
+      ]
+    },
+    "back": {
+      "exercises": [
+        {
+          "name": "Deadlift",
+          "description": "Lift a loaded barbell from the ground, working the back and posterior chain."
+        },
+        {
+          "name": "Pull-Ups",
+          "description": "Lift your body up using an overhead bar, targeting the back muscles."
+        },
+        {
+          "name": "Bent Over Rows",
+          "description": "Row a barbell or dumbbells to work the muscles in the upper back."
+        }
+      ]
+    },
+    "legs": {
+      "exercises": [
+        {
+          "name": "Squats",
+          "description": "Bend your knees and hips to lower your body, targeting the quadriceps and glutes."
+        },
+        {
+          "name": "Lunges",
+          "description": "Step forward or backward, bending both knees to work the legs and glutes."
+        },
+        {
+          "name": "Leg Press",
+          "description": "Push a weighted platform with your legs, targeting the quadriceps and hamstrings."
+        }
+      ]
+    },
+    "shoulders": {
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "description": "Lift a barbell or dumbbells overhead, targeting the shoulders and triceps."
+        },
+        {
+          "name": "Lateral Raises",
+          "description": "Raise dumbbells to the side to work the lateral deltoids."
+        },
+        {
+          "name": "Front Raises",
+          "description": "Raise dumbbells to the front to target the front deltoids."
+        }
+      ]
+    },
+    "arms": {
+      "exercises": [
+        {
+          "name": "Bicep Curls",
+          "description": "Curl a barbell or dumbbells to target the biceps."
+        },
+        {
+          "name": "Tricep Dips",
+          "description": "Lower and lift your body using parallel bars to work the triceps."
+        },
+        {
+          "name": "Hammer Curls",
+          "description": "Curl dumbbells with a neutral grip to target the biceps and forearms."
+        }
+      ]
+    }
+  }
+}
