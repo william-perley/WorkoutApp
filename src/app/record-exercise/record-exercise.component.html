@@ -1,0 +1,13 @@
+<form class="exercise-form">
+  <mat-form-field>
+    <mat-label>Exercise Name</mat-label>
+    <mat-select>
+      <mat-option>--</mat-option>
+      @for (areas of area; track areas) {
+        <mat-option [value]="areas">{{ areas.muscleGroup }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
+
+</form>

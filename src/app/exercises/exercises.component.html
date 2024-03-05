@@ -1,0 +1,14 @@
+<router-outlet/>
+<p>exercises works!</p>
+
+<div class="exercise-card">
+  <div class="exercises">
+    <div *ngFor="let muscleGroup of muscleGroups | keyvalue">
+      <h2>{{ muscleGroup.key }}</h2>
+      <div *ngFor="let exercise of muscleGroup.value">
+        <h3>{{ exercise.name }}</h3>
+        <p>{{ exercise.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

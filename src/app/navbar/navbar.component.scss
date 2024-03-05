@@ -1,0 +1,19 @@
+@import "@angular/material";
+
+.spacer {
+  flex: 1;
+}
+
+button {
+  margin-left: 20px;
+}
+
+mat-toolbar {
+  justify-content: left;
+  text: _apply-font-family(arial);
+  display: flex;
+  align-items: center;
+
+  height: 64px;
+  padding: 0 16px;
+}
