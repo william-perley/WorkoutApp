@@ -11,7 +11,6 @@ response = requests.get("https://raw.githubusercontent.com/william-perley/Workou
 
 def getAllInfo():
     # Use a breakpoint in the code line below to debug your script.
-    #response = requests.get("https://raw.githubusercontent.com/william-perley/WorkoutApp/main/exercises").json()
     Musclegroups = response["muscleGroups"]
     return Musclegroups
 
